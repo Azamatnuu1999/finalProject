@@ -47,4 +47,8 @@ We also have a `package.json` to manage dependencies
 
 ## API
 
-The project uses API from [meaningcloud](https://weatherbit.io), which provides a powerful and flexible content analysis solutions.
+The project uses API's from 
+-[weahterbit](https://weatherbit.io),
+-[pixabay](https://pixabay.com/api/docs/),
+-[weahterbit](https://www.geonames.org/),
+which provides a powerful and flexible content analysis solutions.
