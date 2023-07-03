@@ -2,44 +2,31 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
+        <title>Weather Journal</title>
     </head>
 
     <body>
+        <div class="title">
+            <h1>
+                Travel App
+            </h1>
+            <h3>
+                Plan to a travel with our awesome app!
+            </h3>
+        </div>
 
-        <header>
-            <div class="navigation">Navigation</div>
-            <div>
-                <h1>Natural language processing</h1>
-            </div>
-        </header>
-
-        <main>
-            <section>
-                <div>
-                    <h1>Article Evaluator</h1>
-                    <h2>Evaluate a <span>News Article</span> with NLP</h2>
-                </div>
-                <form class="" onsubmit="return client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" value="" placeholder="Please enter your URL">
-                    <p id="error"></p>
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
-                </form>
-            <section>
-
-            <section id="table">
-                <div><strong>Form Results:</strong></div>
-                <div id="agreement"></div>
-                <div id="confidence"></div>
-                <div id="irony"></div>
-                <div id="message"></div>
-                <div id="model"></div>
-                <div id="score_tag"></div>
-            </section>
-        </main>
+        <div class="main">
+            <form class="" onsubmit="return client.handleSubmit(event)">
+                <input id="name" type="text" name="input" value="" placeholder="Please enter city name" required>
+                <input id="days" type="date" name="input" required>
+                <p id="onError"></p>
+                <input type="submit" name="" value="Show Data" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+            </form>
+        </div>
+        <div id="result"></div>   
 
         <footer>
-            <p>Abduvohidov Azamat. 2023</p>
+            Azamat Abduvohidov. Tashkent 2023
         </footer>
      
         <script>

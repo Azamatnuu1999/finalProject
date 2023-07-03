@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+.title {
+    background-color: cadetblue;
+    width: 375px;
+    margin: 20px auto 30px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.main {
+    margin: 0 auto 50px;
+    width: 375px;
+    padding: 15px 2px 5px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.main button {
+    background-color: white;
+}
+
+#result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#result .card {
+    width: 340px;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+#result .card:hover {
+    transform: scale(1.02);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px 3px grey;
+}
+
+footer {
+    background-color: cadetblue;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0;
+}
